@@ -1,0 +1,101 @@
+body {
+  background-color: #e0e2e270;
+}
+
+#headerId{
+	font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.col-3_yearTile{
+	background-color: white;
+    width: 14rem;
+    height: 28rem;
+    border-radius: 10px;	
+}
+
+.filterLable{
+	text-align: center;
+}
+
+.lineClass{
+	margin: auto;
+}
+
+#filterId{
+	padding-left: 1rem;
+	font-size: 1rem;
+    font-weight: bold;
+}
+
+.launchButtonYear{
+	margin-top: -0.5rem;
+    margin-bottom: 15rem;
+}
+
+.launchButton{
+	
+	margin-top: -0.5rem;
+    margin-bottom: 1rem;
+	
+}
+
+.launchButton1{
+	cursor: pointer;
+	background-color: #b2f5a6;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-right: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.launchButton2{
+	cursor: pointer;
+	background-color: #b2f5a6;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 700px;
+  }
+}
+.lastButton{
+	margin-right: 6rem;
+	cursor: pointer;
+	background-color: #b2f5a6;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.lastButton:hover {
+  background-color: #66d253;
+}
+
+.launchButton1:hover {
+  background-color: #66d253;
+}
+
+.launchButton2:hover {
+  background-color: #66d253;
+}
+
+
+.lastButton:focus {
+  background-color: #66d253;  
+  border-color: transparent;
+}
+
+.launchButton1:focus { 
+  background-color: #66d253;  
+  border-color: transparent;
+}
+
+.launchButton2:focus {
+   background-color: #66d253;  
+  border-color: transparent;
+}
